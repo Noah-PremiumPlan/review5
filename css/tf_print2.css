@@ -18,20 +18,37 @@
 
 
 /* Hidden Objects */
-
+nav.horizontal, nav.vertical, section#left, section#right, h1, footer {
+   display: none;
+}
 
 
 /* Page Box Styles */
-
+@page {
+   size: 8.5in 11in;
+   margin: 0.5in;
+}
 
 
 /* Header Styles */
 
-
+body > header > img {
+   display: block;
+   width: 100%;
+}
 
 /* Typography Styles */
-
-
+article {
+   margin-bottom: 0.2in;
+}
+article.h1 {
+   font-size: 24pt;
+   line-height: 26pt;
+}
+aside {
+   background: rgb(211,211,211);
+   margin-top: 0.3in;
+}
 
 /* Hypertext Styles */
 
